@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="160dp"
+    android:layout_gravity="center"
+    android:background="@drawable/progress_custom_bg" >
+
+    <TextView
+        android:id="@+id/progress_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Downloading..."
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/progress_message"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:indeterminate="false"
+        android:indeterminateOnly="false"
+        android:progressDrawable="@drawable/dialog_horizon_style" />
+
+    <TextView
+        android:id="@+id/progress_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/progress_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/progress"
+        android:layout_below="@id/progress"
+        android:layout_marginTop="6dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress_percent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/button_background"
+        android:text="cancel"
+        android:textSize="16sp" />
+
+</RelativeLayout>
