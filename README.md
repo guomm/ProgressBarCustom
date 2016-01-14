@@ -11,7 +11,7 @@ Here is directions.(自定义进度条，有两种格式，分别是水平方向
 			}
 		});
 ```
-![image](https://github.com/guomm/ProgressBarCustom/circular.png)
+![image](https://github.com/guomm/ProgressBarCustom/raw/master/circular.png)
 
 //for horizontal 水平方向的进度条
 ```
@@ -48,6 +48,6 @@ Here is directions.(自定义进度条，有两种格式，分别是水平方向
 		}.start();
 ```	
 		
-![image](https://github.com/guomm/ProgressBarCustom/horizontal.png)
+![image](https://github.com/guomm/ProgressBarCustom/raw/master/horizontal.png)
 
 More detailed information please see the project.
